@@ -175,24 +175,6 @@ h1 {
 }
 
 footer {
-
+	line-height: 80px;
 	font-size: 1.4rem;
-	margin-bottom: 0px;
-}
-
-footer > p {
-	line-height: 30px;
-	margin-bottom: 0px;
-	font-size: 1.4rem;
-}
-
-.insta {
-	height: 30px;
-	margin-top: 50px;
-}
-
-.twitter {
-	margin-top: 50px;
-	height: 30px;
-	margin-left: 50px;
 }
