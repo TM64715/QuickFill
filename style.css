@@ -39,6 +39,7 @@ button {
 	border: none;
 	color: #1DB389;
 	border-radius: 50px;
+	cursor: pointer;
 }
 
 h1 {
@@ -53,8 +54,13 @@ h1 {
 	height: 700px;
 }
 
+.section1-margins {
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
 .section1 img {
-	margin-top: ;
+
 	margin-left: 10px;
 }
 
@@ -62,51 +68,69 @@ h1 {
 	height: 80px;
 	margin-top: 10px;
 	margin-left: 10px;
+	margin-top: 40px;
 }
 
 .log-in {
 	float: right;
-	height: 3rem;
-	width: 7%;
+	height: 4rem;
+	width: 13%;
 	font-family: "muliregular";
 	font-size: 1.4rem;
-	margin-top: 10px;
+	margin-top: 40px;
 	margin-right: 10px;
+	outline: none;
 }
 
 /*Main Content Section 1*/
 .main-container {
 	display: grid;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 200px;
+	margin-right: 200px;
 	grid-template-columns: 1fr 1fr;
 	height: auto;
 }
 
 .section1-header {
 	color: white;
+	font-size: 3.7rem;
 }
 
 .section1-text {
 	color: white;
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 }
 .section1-image {
-	max-width: 100%;
+	max-width: 150%;
 	position: relative;
-	margin-top: 90px;
+	top: 0px;
+	left: 130px;
+	bottom: 45px;
 
 }
+
+
+
 
 .one-flex-1 {
 	margin-top: 90px;
 }
 
 .oos {
-	height: 5rem;
-	width: 90%;
+	height: 4rem;
+	width: 55%;
 	font-family: "muliregular";
-	font-size: 1.4rem;
+	font-size: 1.6rem;
+	outline: none;
+	margin-top: 20px;
+}
+
+button:hover {
+	box-shadow: 0px 0px 30px #fff;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 /*Section 2*/
