@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'mulilight';
+    src: url('fonts/muli-light-webfont.woff2') format('woff2'),
+         url('fonts/muli-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('fonts/muli-webfont.woff2') format('woff2'),
+         url('fonts/muli-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	/*background: linear-gradient(90deg,rgb(115, 241, 163), rgb(21, 162, 140));
+	*/
+	font-family: 'mulilight';
+	margin: 0px;
+	text-align: center;
+}
+
+.logo-top {
+	max-width: 198px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.button {
+	
+	border: none;
+	background-color: white;
+	color: #37EC7E;
+	width: 198px;
+	height: 64px;
+	border-radius: 50px;
+	font-size: 2.5rem;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-weight: lighter;
+}
+
+.section1 {
+	margin: 0px;
+	height: 890px;
+	background: url("Images/bg.png");
+	background-size: 100%;
+	text-align: left;
+}
+/*button*/
+.log-in {
+	float: right;
+	color: #1DB389;
+}
+
+
+/*Section1 still*/
+.main-container {
+	margin-top: 90px;
+	display: flex;
+	margin-left: 150px;
+	margin-right: 150px;
+	justify-content: space-between;
+	margin-bottom: 400px;
+}
+.one-flex-1 {
+	flex: 2;
+}
+h1 {
+	color: white;
+	font-size: 4rem;
+
+}
+.oos {
+	color: #1DB389;
+	width: 70%;
+}
+.section1 > .main-container > div > p {
+	font-size: 2rem;
+	color: white;
+}
+.section1 > .main-container > div {
+	flex:2;
+}
+
+.main-container > img {
+	flex: 1;
+}
+
+.section2 {
+	width: 90%;
+	display: inline-block;
+}
+.main-container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.main-container2 > img {
+	margin: auto;
+}
+
+.section2-bg-text {
+	background-color: #F6F6F6;
+	border-radius: 50px;
+	width: 600px;
+	height: 500px;
+}
+
+.section2-header {
+	color: #8D8D8D;
+	text-align: center;
+	font-weight: lighter;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.section2-header+p {
+	margin-left: 40px;
+	text-align: left;
+	font-size: 2rem;
+}
+
+.section2 {
+	height: 890px;
+}
+
+.section3 {
+	background: url(Images/Subtraction-3.png);
+	height: 1000px;
+	font-size: 2rem;
+}
+
+.section3+div {
+	width: 90%;
+	display: inline-block;
+}
+
+.main-container3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 100px;
+}
+
+.section3-header {
+	color: #8D8D8D;
+}
+
+.main-container3 > img {
+	margin-top: 400px;
+}
+
+.section3-bg-text {
+	background-color: #F6F6F6;
+	border-radius: 50px;
+	width: 600px;
+	height: 500px;
+	margin-top: 400px;
+	margin-left: 100px;
+}
+
+.section3-header+p {
+	margin-left: auto;
+	margin-right: auto
+}
