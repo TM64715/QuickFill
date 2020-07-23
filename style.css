@@ -221,3 +221,7 @@ footer > p {
 	height: 30px;
 	margin-left: 50px;
 }
+
+footer a {
+	outline: none;
+}
