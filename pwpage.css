@@ -32,6 +32,7 @@ form {
 	outline: none;
 	box-sizing: border-box;
 	padding-left: 15px;
+	text-align: center;
 }
 
 .pw::placeholder {
